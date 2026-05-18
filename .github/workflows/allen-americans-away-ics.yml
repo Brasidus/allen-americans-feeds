@@ -1,0 +1,40 @@
+name: Allen Americans Away ICS
+
+on:
+  schedule:
+    # Daily at 6:43 AM Central, but ONLY during hockey season (Oct–June).
+    # 11:43 UTC = 6:43 AM CDT (UTC-5); becomes 5:43 AM Central in CST winter.
+    # Month gate (10-12,1-6) keeps it dormant July–Sept; wakes back up Oct 1.
+    # Range covers regular season (Oct–Apr) + Kelly Cup playoffs through June.
+    # Off-minute (43) avoids the :00/:30 thundering herd on GitHub's scheduler.
+    - cron: "43 11 * 10-12,1-6 *"
+  workflow_dispatch:
+
+jobs:
+  update-away-ics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate away-games ICS
+        run: python update_allen_away_ics.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet allen-americans-away.ics; then
+            echo "No change to allen-americans-away.ics — skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add allen-americans-away.ics
+          git commit -m "Update Allen Americans away-games ICS"
+          git push

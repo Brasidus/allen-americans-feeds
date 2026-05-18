@@ -1,0 +1,40 @@
+{
+  "directory": "/tmp/allen-americans-feeds",
+  "updated": "2026-05-17T20:18:53.687358",
+  "count": 5,
+  "entries": [
+    {
+      "name": ".git",
+      "type": "directory",
+      "modified": "2026-05-17T20:18:38.070153",
+      "created": "2026-05-17T20:18:37.757437"
+    },
+    {
+      "name": ".github",
+      "type": "directory",
+      "modified": "2026-05-17T20:18:43.880053",
+      "created": "2026-05-17T20:18:43.879982"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "modified": "2026-05-17T20:18:53.661241",
+      "size": 1105,
+      "created": "2026-05-17T20:18:53.661143"
+    },
+    {
+      "name": "allen-americans-away.ics",
+      "type": "file",
+      "modified": "2026-05-17T20:18:43.887783",
+      "size": 14463,
+      "created": "2026-05-17T20:18:43.887471"
+    },
+    {
+      "name": "update_allen_away_ics.py",
+      "type": "file",
+      "modified": "2026-05-17T20:18:43.883210",
+      "size": 1958,
+      "created": "2026-05-17T20:18:43.882912"
+    }
+  ]
+}
