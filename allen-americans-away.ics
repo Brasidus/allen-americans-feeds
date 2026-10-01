@@ -3,10 +3,19 @@ VERSION:2.0
 PRODID:-//Allen Americans//allenamericans.com//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
+UID:https://allenamericans.com/games/2026/10/10/tulsa-oilers
+SUMMARY:Allen Americans @ Tulsa Oilers
+DTSTART;TZID=America/Chicago:20261010T180000
+DTEND;TZID=America/Chicago:20261010T210000
+DESCRIPTION:Allen Americans at Tulsa Oilers
+LOCATION:WeStreet Ice Center\, Tulsa\, Oklahoma
+URL;VALUE=URI:https://allenamericans.com/games/2026/10/10/tulsa-oilers
+END:VEVENT
+BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/10/17/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=Canada/Central:20261017T190500
-DTEND;TZID=Canada/Central:20261017T220500
+DTSTART;TZID=America/Chicago:20261017T190500
+DTEND;TZID=America/Chicago:20261017T220500
 DESCRIPTION:Allen Americans at Tulsa Oilers
 LOCATION:BOK Center\, Tulsa\, Oklahoma
 URL;VALUE=URI:https://allenamericans.com/games/2026/10/17/tulsa-oilers
@@ -14,8 +23,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/10/23/idaho-steelheads
 SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=Canada/Mountain:20261023T191000
-DTEND;TZID=Canada/Mountain:20261023T221000
+DTSTART;TZID=America/Denver:20261023T191000
+DTEND;TZID=America/Denver:20261023T221000
 DESCRIPTION:Allen Americans at Idaho Steelheads
 LOCATION:Idaho Central Arena\, Boise\, Idaho
 URL;VALUE=URI:https://allenamericans.com/games/2026/10/23/idaho-steelheads
@@ -23,8 +32,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/10/24/idaho-steelheads
 SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=Canada/Mountain:20261024T191000
-DTEND;TZID=Canada/Mountain:20261024T221000
+DTSTART;TZID=America/Denver:20261024T191000
+DTEND;TZID=America/Denver:20261024T221000
 DESCRIPTION:Allen Americans at Idaho Steelheads
 LOCATION:Idaho Central Arena\, Boise\, Idaho
 URL;VALUE=URI:https://allenamericans.com/games/2026/10/24/idaho-steelheads
@@ -32,8 +41,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/10/27/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=Canada/Central:20261027T103500
-DTEND;TZID=Canada/Central:20261027T133500
+DTSTART;TZID=America/Chicago:20261027T103500
+DTEND;TZID=America/Chicago:20261027T133500
 DESCRIPTION:Allen Americans at Tulsa Oilers
 LOCATION:BOK Center\, Tulsa\, Oklahoma
 URL;VALUE=URI:https://allenamericans.com/games/2026/10/27/tulsa-oilers
@@ -41,8 +50,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/04/new-mexico-goatheads
 SUMMARY:Allen Americans @ New Mexico Goatheads
-DTSTART;TZID=Canada/Mountain:20261104T190000
-DTEND;TZID=Canada/Mountain:20261104T220000
+DTSTART;TZID=America/Denver:20261104T190000
+DTEND;TZID=America/Denver:20261104T220000
 DESCRIPTION:Allen Americans at New Mexico Goatheads
 LOCATION:Rio Rancho Events Center\, Rio Rancho\, New Mexico
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/04/new-mexico-goathe
@@ -51,8 +60,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/06/new-mexico-goatheads
 SUMMARY:Allen Americans @ New Mexico Goatheads
-DTSTART;TZID=Canada/Mountain:20261106T190000
-DTEND;TZID=Canada/Mountain:20261106T220000
+DTSTART;TZID=America/Denver:20261106T190000
+DTEND;TZID=America/Denver:20261106T220000
 DESCRIPTION:Allen Americans at New Mexico Goatheads
 LOCATION:Rio Rancho Events Center\, Rio Rancho\, New Mexico
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/06/new-mexico-goathe
@@ -61,8 +70,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/07/new-mexico-goatheads
 SUMMARY:Allen Americans @ New Mexico Goatheads
-DTSTART;TZID=Canada/Mountain:20261107T190000
-DTEND;TZID=Canada/Mountain:20261107T220000
+DTSTART;TZID=America/Denver:20261107T190000
+DTEND;TZID=America/Denver:20261107T220000
 DESCRIPTION:Allen Americans at New Mexico Goatheads
 LOCATION:Rio Rancho Events Center\, Rio Rancho\, New Mexico
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/07/new-mexico-goathe
@@ -71,8 +80,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/13/kansas-city-mavericks
 SUMMARY:Allen Americans @ Kansas City Mavericks
-DTSTART;TZID=Canada/Central:20261113T190500
-DTEND;TZID=Canada/Central:20261113T220500
+DTSTART;TZID=America/Chicago:20261113T190500
+DTEND;TZID=America/Chicago:20261113T220500
 DESCRIPTION:Allen Americans at Kansas City Mavericks
 LOCATION:Cable Dahmer Arena\, Independence\, Missouri
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/13/kansas-city-maver
@@ -81,8 +90,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/14/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=Canada/Central:20261114T190500
-DTEND;TZID=Canada/Central:20261114T220500
+DTSTART;TZID=America/Chicago:20261114T190500
+DTEND;TZID=America/Chicago:20261114T220500
 DESCRIPTION:Allen Americans at Tulsa Oilers
 LOCATION:BOK Center\, Tulsa\, Oklahoma
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/14/tulsa-oilers
@@ -90,8 +99,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/15/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=Canada/Central:20261115T150500
-DTEND;TZID=Canada/Central:20261115T180500
+DTSTART;TZID=America/Chicago:20261115T150500
+DTEND;TZID=America/Chicago:20261115T180500
 DESCRIPTION:Allen Americans at Tulsa Oilers
 LOCATION:BOK Center\, Tulsa\, Oklahoma
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/15/tulsa-oilers
@@ -99,8 +108,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/18/wichita-thunder
 SUMMARY:Allen Americans @ Wichita Thunder
-DTSTART;TZID=Canada/Central:20261118T190500
-DTEND;TZID=Canada/Central:20261118T220500
+DTSTART;TZID=America/Chicago:20261118T190500
+DTEND;TZID=America/Chicago:20261118T220500
 DESCRIPTION:Allen Americans at Wichita Thunder
 LOCATION:INTRUST Bank Arena\, Wichita\, Kansas
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/18/wichita-thunder
@@ -108,8 +117,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/25/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20261125T190500
-DTEND;TZID=Canada/Mountain:20261125T220500
+DTSTART;TZID=America/Denver:20261125T190500
+DTEND;TZID=America/Denver:20261125T220500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/25/rapid-city-rush
@@ -117,8 +126,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/27/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20261127T190500
-DTEND;TZID=Canada/Mountain:20261127T220500
+DTSTART;TZID=America/Denver:20261127T190500
+DTEND;TZID=America/Denver:20261127T220500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/27/rapid-city-rush
@@ -126,8 +135,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/28/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20261128T190500
-DTEND;TZID=Canada/Mountain:20261128T220500
+DTSTART;TZID=America/Denver:20261128T190500
+DTEND;TZID=America/Denver:20261128T220500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/28/rapid-city-rush
@@ -135,26 +144,26 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/29/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20261129T160500
-DTEND;TZID=Canada/Mountain:20261129T190500
+DTSTART;TZID=America/Denver:20261129T160500
+DTEND;TZID=America/Denver:20261129T190500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2026/11/29/rapid-city-rush
 END:VEVENT
 BEGIN:VEVENT
-UID:https://allenamericans.com/games/2026/12/08/wichita-thunder
+UID:https://allenamericans.com/games/2026/12/10/wichita-thunder
 SUMMARY:Allen Americans @ Wichita Thunder
-DTSTART;TZID=Canada/Central:20261208T190500
-DTEND;TZID=Canada/Central:20261208T220500
+DTSTART;TZID=America/Chicago:20261210T190500
+DTEND;TZID=America/Chicago:20261210T220500
 DESCRIPTION:Allen Americans at Wichita Thunder
 LOCATION:INTRUST Bank Arena\, Wichita\, Kansas
-URL;VALUE=URI:https://allenamericans.com/games/2026/12/08/wichita-thunder
+URL;VALUE=URI:https://allenamericans.com/games/2026/12/10/wichita-thunder
 END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/12/11/wichita-thunder
 SUMMARY:Allen Americans @ Wichita Thunder
-DTSTART;TZID=Canada/Central:20261211T190500
-DTEND;TZID=Canada/Central:20261211T220500
+DTSTART;TZID=America/Chicago:20261211T190500
+DTEND;TZID=America/Chicago:20261211T220500
 DESCRIPTION:Allen Americans at Wichita Thunder
 LOCATION:INTRUST Bank Arena\, Wichita\, Kansas
 URL;VALUE=URI:https://allenamericans.com/games/2026/12/11/wichita-thunder
@@ -162,8 +171,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/12/26/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=Canada/Central:20261226T190500
-DTEND;TZID=Canada/Central:20261226T220500
+DTSTART;TZID=America/Chicago:20261226T190500
+DTEND;TZID=America/Chicago:20261226T220500
 DESCRIPTION:Allen Americans at Tulsa Oilers
 LOCATION:BOK Center\, Tulsa\, Oklahoma
 URL;VALUE=URI:https://allenamericans.com/games/2026/12/26/tulsa-oilers
@@ -171,8 +180,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/01/22/tahoe-knight-monsters
 SUMMARY:Allen Americans @ Tahoe Knight Monsters
-DTSTART;TZID=Canada/Pacific:20270122T190000
-DTEND;TZID=Canada/Pacific:20270122T220000
+DTSTART;TZID=America/Los_Angeles:20270122T190000
+DTEND;TZID=America/Los_Angeles:20270122T220000
 DESCRIPTION:Allen Americans at Tahoe Knight Monsters
 LOCATION:Tahoe Blue Event Center\, Stateline\, Nevada
 URL;VALUE=URI:https://allenamericans.com/games/2027/01/22/tahoe-knight-mons
@@ -181,8 +190,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/01/23/tahoe-knight-monsters
 SUMMARY:Allen Americans @ Tahoe Knight Monsters
-DTSTART;TZID=Canada/Pacific:20270123T190000
-DTEND;TZID=Canada/Pacific:20270123T220000
+DTSTART;TZID=America/Los_Angeles:20270123T190000
+DTEND;TZID=America/Los_Angeles:20270123T220000
 DESCRIPTION:Allen Americans at Tahoe Knight Monsters
 LOCATION:Tahoe Blue Event Center\, Stateline\, Nevada
 URL;VALUE=URI:https://allenamericans.com/games/2027/01/23/tahoe-knight-mons
@@ -191,8 +200,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/01/24/tahoe-knight-monsters
 SUMMARY:Allen Americans @ Tahoe Knight Monsters
-DTSTART;TZID=Canada/Pacific:20270124T150000
-DTEND;TZID=Canada/Pacific:20270124T180000
+DTSTART;TZID=America/Los_Angeles:20270124T150000
+DTEND;TZID=America/Los_Angeles:20270124T180000
 DESCRIPTION:Allen Americans at Tahoe Knight Monsters
 LOCATION:Tahoe Blue Event Center\, Stateline\, Nevada
 URL;VALUE=URI:https://allenamericans.com/games/2027/01/24/tahoe-knight-mons
@@ -201,8 +210,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/05/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=Canada/Central:20270205T190500
-DTEND;TZID=Canada/Central:20270205T220500
+DTSTART;TZID=America/Chicago:20270205T190500
+DTEND;TZID=America/Chicago:20270205T220500
 DESCRIPTION:Allen Americans at Tulsa Oilers
 LOCATION:BOK Center\, Tulsa\, Oklahoma
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/05/tulsa-oilers
@@ -210,8 +219,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/07/kansas-city-mavericks
 SUMMARY:Allen Americans @ Kansas City Mavericks
-DTSTART;TZID=Canada/Central:20270207T160500
-DTEND;TZID=Canada/Central:20270207T190500
+DTSTART;TZID=America/Chicago:20270207T160500
+DTEND;TZID=America/Chicago:20270207T190500
 DESCRIPTION:Allen Americans at Kansas City Mavericks
 LOCATION:Cable Dahmer Arena\, Independence\, Missouri
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/07/kansas-city-maver
@@ -220,8 +229,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/10/worcester-railers
 SUMMARY:Allen Americans @ Worcester Railers
-DTSTART;TZID=Canada/Eastern:20270210T190500
-DTEND;TZID=Canada/Eastern:20270210T220500
+DTSTART;TZID=America/New_York:20270210T190500
+DTEND;TZID=America/New_York:20270210T220500
 DESCRIPTION:Allen Americans at Worcester Railers
 LOCATION:DCU Center\, Worcester\, Massachusetts
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/10/worcester-railers
@@ -229,8 +238,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/12/worcester-railers
 SUMMARY:Allen Americans @ Worcester Railers
-DTSTART;TZID=Canada/Eastern:20270212T190500
-DTEND;TZID=Canada/Eastern:20270212T220500
+DTSTART;TZID=America/New_York:20270212T190500
+DTEND;TZID=America/New_York:20270212T220500
 DESCRIPTION:Allen Americans at Worcester Railers
 LOCATION:DCU Center\, Worcester\, Massachusetts
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/12/worcester-railers
@@ -238,8 +247,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/13/worcester-railers
 SUMMARY:Allen Americans @ Worcester Railers
-DTSTART;TZID=Canada/Eastern:20270213T180500
-DTEND;TZID=Canada/Eastern:20270213T210500
+DTSTART;TZID=America/New_York:20270213T180500
+DTEND;TZID=America/New_York:20270213T210500
 DESCRIPTION:Allen Americans at Worcester Railers
 LOCATION:DCU Center\, Worcester\, Massachusetts
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/13/worcester-railers
@@ -247,8 +256,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/26/idaho-steelheads
 SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=Canada/Mountain:20270226T191000
-DTEND;TZID=Canada/Mountain:20270226T221000
+DTSTART;TZID=America/Denver:20270226T191000
+DTEND;TZID=America/Denver:20270226T221000
 DESCRIPTION:Allen Americans at Idaho Steelheads
 LOCATION:Idaho Central Arena\, Boise\, Idaho
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/26/idaho-steelheads
@@ -256,8 +265,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/02/27/idaho-steelheads
 SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=Canada/Mountain:20270227T191000
-DTEND;TZID=Canada/Mountain:20270227T221000
+DTSTART;TZID=America/Denver:20270227T191000
+DTEND;TZID=America/Denver:20270227T221000
 DESCRIPTION:Allen Americans at Idaho Steelheads
 LOCATION:Idaho Central Arena\, Boise\, Idaho
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/27/idaho-steelheads
@@ -265,8 +274,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/05/wichita-thunder
 SUMMARY:Allen Americans @ Wichita Thunder
-DTSTART;TZID=Canada/Central:20270305T190500
-DTEND;TZID=Canada/Central:20270305T220500
+DTSTART;TZID=America/Chicago:20270305T190500
+DTEND;TZID=America/Chicago:20270305T220500
 DESCRIPTION:Allen Americans at Wichita Thunder
 LOCATION:INTRUST Bank Arena\, Wichita\, Kansas
 URL;VALUE=URI:https://allenamericans.com/games/2027/03/05/wichita-thunder
@@ -274,8 +283,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/10/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20270310T190500
-DTEND;TZID=Canada/Mountain:20270310T220500
+DTSTART;TZID=America/Denver:20270310T190500
+DTEND;TZID=America/Denver:20270310T220500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2027/03/10/rapid-city-rush
@@ -283,8 +292,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/12/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20270312T190500
-DTEND;TZID=Canada/Mountain:20270312T220500
+DTSTART;TZID=America/Denver:20270312T190500
+DTEND;TZID=America/Denver:20270312T220500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2027/03/12/rapid-city-rush
@@ -292,8 +301,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/13/rapid-city-rush
 SUMMARY:Allen Americans @ Rapid City Rush
-DTSTART;TZID=Canada/Mountain:20270313T190500
-DTEND;TZID=Canada/Mountain:20270313T220500
+DTSTART;TZID=America/Denver:20270313T190500
+DTEND;TZID=America/Denver:20270313T220500
 DESCRIPTION:Allen Americans at Rapid City Rush
 LOCATION:The Monument\, Rapid City\, South Dakota
 URL;VALUE=URI:https://allenamericans.com/games/2027/03/13/rapid-city-rush
@@ -301,8 +310,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/26/indy-fuel
 SUMMARY:Allen Americans @ Indy Fuel
-DTSTART;TZID=Canada/Eastern:20270326T191500
-DTEND;TZID=Canada/Eastern:20270326T221500
+DTSTART;TZID=America/New_York:20270326T191500
+DTEND;TZID=America/New_York:20270326T221500
 DESCRIPTION:Allen Americans at Indy Fuel
 LOCATION:Fishers Event Center\, Fishers\, Indiana
 URL;VALUE=URI:https://allenamericans.com/games/2027/03/26/indy-fuel
@@ -310,8 +319,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/27/indy-fuel
 SUMMARY:Allen Americans @ Indy Fuel
-DTSTART;TZID=Canada/Eastern:20270327T190000
-DTEND;TZID=Canada/Eastern:20270327T220000
+DTSTART;TZID=America/New_York:20270327T190000
+DTEND;TZID=America/New_York:20270327T220000
 DESCRIPTION:Allen Americans at Indy Fuel
 LOCATION:Fishers Event Center\, Fishers\, Indiana
 URL;VALUE=URI:https://allenamericans.com/games/2027/03/27/indy-fuel
@@ -319,8 +328,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/04/10/wichita-thunder
 SUMMARY:Allen Americans @ Wichita Thunder
-DTSTART;TZID=Canada/Central:20270410T180500
-DTEND;TZID=Canada/Central:20270410T210500
+DTSTART;TZID=America/Chicago:20270410T180500
+DTEND;TZID=America/Chicago:20270410T210500
 DESCRIPTION:Allen Americans at Wichita Thunder
 LOCATION:INTRUST Bank Arena\, Wichita\, Kansas
 URL;VALUE=URI:https://allenamericans.com/games/2027/04/10/wichita-thunder
@@ -328,8 +337,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/04/11/wichita-thunder
 SUMMARY:Allen Americans @ Wichita Thunder
-DTSTART;TZID=Canada/Central:20270411T150500
-DTEND;TZID=Canada/Central:20270411T180500
+DTSTART;TZID=America/Chicago:20270411T150500
+DTEND;TZID=America/Chicago:20270411T180500
 DESCRIPTION:Allen Americans at Wichita Thunder
 LOCATION:INTRUST Bank Arena\, Wichita\, Kansas
 URL;VALUE=URI:https://allenamericans.com/games/2027/04/11/wichita-thunder
