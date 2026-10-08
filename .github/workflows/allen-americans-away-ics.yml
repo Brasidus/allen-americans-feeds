@@ -1,13 +1,10 @@
 name: Allen Americans Away ICS
 
 on:
-  schedule:
-    # Daily at 6:43 AM Central, but ONLY during hockey season (Oct–June).
-    # 11:43 UTC = 6:43 AM CDT (UTC-5); becomes 5:43 AM Central in CST winter.
-    # Month gate (10-12,1-6) keeps it dormant July–Sept; wakes back up Oct 1.
-    # Range covers regular season (Oct–Apr) + Kelly Cup playoffs through June.
-    # Off-minute (43) avoids the :00/:30 thundering herd on GitHub's scheduler.
-    - cron: "43 11 * 10-12,1-6 *"
+  # schedule: REMOVED 2026-10-08. This workflow is fired on time by the Cloudflare
+  # scheduler Worker mlo-weekly-dispatch (table: mlo-weekly-dispatch/src/jobs.js in the
+  # claude-workspace repo) via workflow_dispatch, because GitHub's own cron late-fired or
+  # skipped slots. Do not add a schedule: back here; that would run the job twice.
   workflow_dispatch:
 
 jobs:
