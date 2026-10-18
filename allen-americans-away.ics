@@ -3,15 +3,6 @@ VERSION:2.0
 PRODID:-//Allen Americans//allenamericans.com//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:https://allenamericans.com/games/2026/10/17/tulsa-oilers
-SUMMARY:Allen Americans @ Tulsa Oilers
-DTSTART;TZID=America/Chicago:20261017T190500
-DTEND;TZID=America/Chicago:20261017T220500
-DESCRIPTION:Allen Americans at Tulsa Oilers
-LOCATION:BOK Center\, Tulsa\, Oklahoma
-URL;VALUE=URI:https://allenamericans.com/games/2026/10/17/tulsa-oilers
-END:VEVENT
-BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/10/23/idaho-steelheads
 SUMMARY:Allen Americans @ Idaho Steelheads
 DTSTART;TZID=America/Denver:20261023T191000
