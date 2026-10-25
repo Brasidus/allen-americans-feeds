@@ -3,15 +3,6 @@ VERSION:2.0
 PRODID:-//Allen Americans//allenamericans.com//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:https://allenamericans.com/games/2026/10/24/idaho-steelheads
-SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=America/Denver:20261024T191000
-DTEND;TZID=America/Denver:20261024T221000
-DESCRIPTION:Allen Americans at Idaho Steelheads
-LOCATION:Idaho Central Arena\, Boise\, Idaho
-URL;VALUE=URI:https://allenamericans.com/games/2026/10/24/idaho-steelheads
-END:VEVENT
-BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/10/27/tulsa-oilers
 SUMMARY:Allen Americans @ Tulsa Oilers
 DTSTART;TZID=America/Chicago:20261027T103500
