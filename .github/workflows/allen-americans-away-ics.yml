@@ -7,6 +7,10 @@ on:
   # skipped slots. Do not add a schedule: back here; that would run the job twice.
   workflow_dispatch:
 
+# Least privilege (2026-11-02): the job commits the refreshed ICS back to the repo.
+permissions:
+  contents: write   # the job commits and pushes the refreshed ICS
+
 jobs:
   update-away-ics:
     runs-on: ubuntu-latest
