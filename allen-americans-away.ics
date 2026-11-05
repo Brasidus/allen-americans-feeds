@@ -3,16 +3,6 @@ VERSION:2.0
 PRODID:-//Allen Americans//allenamericans.com//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:https://allenamericans.com/games/2026/11/04/new-mexico-goatheads
-SUMMARY:Allen Americans @ New Mexico Goatheads
-DTSTART;TZID=America/Denver:20261104T190000
-DTEND;TZID=America/Denver:20261104T220000
-DESCRIPTION:Allen Americans at New Mexico Goatheads
-LOCATION:Rio Rancho Events Center\, Rio Rancho\, New Mexico
-URL;VALUE=URI:https://allenamericans.com/games/2026/11/04/new-mexico-goathe
- ads
-END:VEVENT
-BEGIN:VEVENT
 UID:https://allenamericans.com/games/2026/11/06/new-mexico-goatheads
 SUMMARY:Allen Americans @ New Mexico Goatheads
 DTSTART;TZID=America/Denver:20261106T190000
