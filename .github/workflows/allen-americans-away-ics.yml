@@ -26,6 +26,10 @@ jobs:
           python-version: "3.11"
 
       - name: Regenerate away-games ICS
+        # allenamericans.com blocks GitHub-runner IPs (405) since 2026-11-09; the script
+        # falls back to this off-GitHub proxy Worker when the direct fetch fails.
+        env:
+          ECHL_PROXY: ${{ secrets.ECHL_PROXY }}
         run: python update_allen_away_ics.py
 
       - name: Commit if changed

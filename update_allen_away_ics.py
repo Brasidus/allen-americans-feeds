@@ -10,8 +10,10 @@ the file if it changed.
 
 from __future__ import annotations
 
+import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -19,13 +21,29 @@ SOURCE_URL = "https://allenamericans.com/schedule-all.ics"
 OUTPUT_PATH = Path(__file__).parent / "allen-americans-away.ics"
 
 
-def fetch_source() -> str:
-    req = urllib.request.Request(
-        SOURCE_URL,
-        headers={"User-Agent": "mlo-daily-sales-report/1.0"},
-    )
+BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+)
+
+
+def _get(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return resp.read().decode("utf-8")
+
+
+def fetch_source() -> str:
+    # allenamericans.com began refusing GitHub-runner IPs (HTTP 405) on 2026-11-09, which
+    # stalled this calendar. Try direct, then fall back to the mlo-echl-proxy Worker (an
+    # off-GitHub IP), the same approach as claude-workspace scripts/echl_http.py.
+    try:
+        return _get(SOURCE_URL)
+    except Exception:
+        proxy = os.environ.get("ECHL_PROXY", "").strip().rstrip("/")
+        if not proxy:
+            raise
+        return _get(f"{proxy}?url={urllib.parse.quote(SOURCE_URL, safe='')}")
 
 
 def filter_away_events(ics: str) -> str:
