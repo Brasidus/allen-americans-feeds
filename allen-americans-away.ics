@@ -151,22 +151,24 @@ LOCATION:DCU Center\, Worcester\, Massachusetts
 URL;VALUE=URI:https://allenamericans.com/games/2027/02/13/worcester-railers
 END:VEVENT
 BEGIN:VEVENT
-UID:https://allenamericans.com/games/2027/02/26/idaho-steelheads
-SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=America/Denver:20270226T191000
-DTEND;TZID=America/Denver:20270226T221000
-DESCRIPTION:Allen Americans at Idaho Steelheads
-LOCATION:Idaho Central Arena\, Boise\, Idaho
-URL;VALUE=URI:https://allenamericans.com/games/2027/02/26/idaho-steelheads
+UID:https://allenamericans.com/games/2027/02/26/cincinnati-cyclones
+SUMMARY:Allen Americans @ Cincinnati Cyclones
+DTSTART;TZID=America/New_York:20270226T190500
+DTEND;TZID=America/New_York:20270226T220500
+DESCRIPTION:Allen Americans at Cincinnati Cyclones
+LOCATION:Heritage Bank Center\, Cincinnati\, Ohio
+URL;VALUE=URI:https://allenamericans.com/games/2027/02/26/cincinnati-cyclon
+ es
 END:VEVENT
 BEGIN:VEVENT
-UID:https://allenamericans.com/games/2027/02/27/idaho-steelheads
-SUMMARY:Allen Americans @ Idaho Steelheads
-DTSTART;TZID=America/Denver:20270227T191000
-DTEND;TZID=America/Denver:20270227T221000
-DESCRIPTION:Allen Americans at Idaho Steelheads
-LOCATION:Idaho Central Arena\, Boise\, Idaho
-URL;VALUE=URI:https://allenamericans.com/games/2027/02/27/idaho-steelheads
+UID:https://allenamericans.com/games/2027/02/27/cincinnati-cyclones
+SUMMARY:Allen Americans @ Cincinnati Cyclones
+DTSTART;TZID=America/New_York:20270227T160500
+DTEND;TZID=America/New_York:20270227T190500
+DESCRIPTION:Allen Americans at Cincinnati Cyclones
+LOCATION:Heritage Bank Center\, Cincinnati\, Ohio
+URL;VALUE=URI:https://allenamericans.com/games/2027/02/27/cincinnati-cyclon
+ es
 END:VEVENT
 BEGIN:VEVENT
 UID:https://allenamericans.com/games/2027/03/05/wichita-thunder
